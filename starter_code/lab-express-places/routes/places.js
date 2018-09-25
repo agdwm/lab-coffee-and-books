@@ -13,7 +13,7 @@ router.get('/', (req, res, next) => {
 			});
 		})
 		.catch( e => {
-			console.log('Error on retrieving the list of celebrities', e);
+			console.log('Error on retrieving the list of places', e);
 			next(e);
 		})
 });
